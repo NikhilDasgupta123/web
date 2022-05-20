@@ -1,0 +1,47 @@
+input {
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: rgba(254, 241, 241, 0.947);
+    color: rgb(6, 0, 0);
+
+}
+
+.LogInbutton {
+    width: 200px;
+    background-color: #5cb0ff;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.forms-2 {
+    position: absolute;
+    right: 100px;
+    width: 500px;
+    padding: 100px;
+    padding-top:100px;
+    background-color: rgb(255, 253, 253);
+
+}
+
+.forms-1 {
+    padding-top: 200px;
+}
+
+body {
+    background-color: #5cb0ff;
+}
+
+img{
+    float:left;
+    max-width: 1700px;
+    height: 495px;
+    padding-top: 200px;
+}
+

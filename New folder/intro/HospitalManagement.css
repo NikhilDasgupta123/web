@@ -1,0 +1,57 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #5cb0ff;
+}
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+li a:hover:not(.active) {
+  background-color: rgba(255, 255, 255, 0.425);
+}
+
+li a.active {
+  color: white;
+  background-color: #04AA6D;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:50px;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  color:white;
+}
+
+@keyframes example {
+  0%   {color: red;}
+  25%  {color: white;}
+  50%  {color: red;}
+  100% {color: white;}
+}
